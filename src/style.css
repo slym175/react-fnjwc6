@@ -1,0 +1,48 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.app-header {
+  width: 100%;
+  min-height: 60px;
+  background-color: #f9f9f9;
+  display: block;
+  overflow: auto;
+}
+
+.app-navbar {
+  width: 250px;
+  float: left;
+  display: inline-block;
+  clear: left;
+  background-color: #f7e2df;
+  height: calc(100vh - 60px);
+  overflow-x: auto;
+  z-index: 1;
+}
+
+/* width */
+.app-navbar::-webkit-scrollbar {
+  width: 0px;
+}
+
+.app-body {
+  min-height: calc(100vh - 120px);
+  width: calc(100% - 250px);
+  margin-left: auto;
+}
+
+.app-footer {
+  width: calc(100% - 250px);
+  min-height: 60px;
+  background-color: #f9f9f9;
+  display: block;
+  overflow: auto;
+}
