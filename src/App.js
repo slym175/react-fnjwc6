@@ -1,8 +1,10 @@
 import React from "react";
 import Header from "./partials/Header";
 import Navbar from "./partials/Navbar";
+import Body from "./Body";
 import Footer from "./partials/Footer";
 
+import "./App.scss";
 import "./style.css";
 
 export default function App() {
@@ -10,7 +12,7 @@ export default function App() {
     <div className="app">
       <Header />
       <Navbar />
-      <div className="app-body">Body</div>
+      <Body />
       <Footer />
     </div>
   );
